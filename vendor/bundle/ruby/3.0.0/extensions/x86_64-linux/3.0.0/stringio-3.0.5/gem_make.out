@@ -1,0 +1,16 @@
+current directory: /home/bhushan/Documents/sites/devise_jwt_app/vendor/bundle/ruby/3.0.0/gems/stringio-3.0.5/ext/stringio
+/home/bhushan/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/bhushan/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20230217-6942-bpdg22.rb extconf.rb
+checking for rb_io_extract_modeenc() in ruby/io.h... yes
+creating Makefile
+
+current directory: /home/bhushan/Documents/sites/devise_jwt_app/vendor/bundle/ruby/3.0.0/gems/stringio-3.0.5/ext/stringio
+make "DESTDIR=" clean
+
+current directory: /home/bhushan/Documents/sites/devise_jwt_app/vendor/bundle/ruby/3.0.0/gems/stringio-3.0.5/ext/stringio
+make "DESTDIR="
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/bhushan/Documents/sites/devise_jwt_app/vendor/bundle/ruby/3.0.0/gems/stringio-3.0.5/ext/stringio
+make "DESTDIR=" install
+/usr/bin/install -m 0755 stringio.so ./.gem.20230217-6942-3opio1
