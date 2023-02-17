@@ -4,7 +4,9 @@ class Users::SessionsController < Devise::SessionsController
   private
 
   def respond_with(resource, _opts = {})
-    byebug
+    if resource.email == ""
+      return render json: { message: 'You are not logged in or your session is expired' }, status: :ok
+    end
     render json: { message: 'You are logged in.' }, status: :ok
   end
 
